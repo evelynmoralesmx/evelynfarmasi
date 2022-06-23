@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Ubuntu&family=Unica+One&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*main syle*/
+html,
+body{
+    font-family: 'Forum', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Unica One', cursive;
+   
+}
+
+
+h1 {font-size:200px;
+    font-family: 'Unica One';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+color: #F7C0B9;
+line-height: 150px;
+}
+h2 {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 55%;
+    padding-left: 10px;
+    
+    color: #F7C0B9;}
+h3 { font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #F7C0B9;
+    padding-left: 17px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:16px;}
+p {
+    padding-left: 17px;
+    padding-top: 30px;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
+a {
+    text-decoration: none;
+}
+#navbar{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #F7C0B9;
+    top: 0;
+    
+}
+.contenedornav{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+    text-transform: uppercase;
+   
+    
+}
+li{
+    float: left;
+    margin: 0px 20px;
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+a{
+    display: block;
+    color: #FFF;
+}
+#cabecera{
+    width: 100vmax;
+    height: 100%;
+    
+}
+.contenedor-cabecera{
+    display: flex;
+    padding-top: 100px;
+    width: 100vmax;
+    justify-content: center;
+    align-items: center;
+}
+.texto-inicio{
+    float: left;
+    width: 40%;
+    height: 100%;    
+}
+
+.imagen-inicio{
+    float: right;
+width: 40%;
+}
+
+#mi-cuenta{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #FFF9F9;
+}
+.imagen-cuenta{
+    float: left;
+    width: 40%;
+}
+.texto-cuenta{
+    float: right;
+    width: 40%;
+    
+}
+
+#capacitate{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.texto-capacitate{
+    float: left;
+    width: 40%;
+
+}
+.img-capacitate{
+    float: right;
+    width: 40%;
+
+}
+
+#contacto{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #FFF9F9;
+    padding-bottom: 100px;
+}
+
+form{
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+input{
+    width: 640px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+border-radius: 31px;
+}
+textarea{
+    width: 640px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    min-width: 640px;
+    max-width: 640px;
+    min-height: 200px;
+    max-height: 400px;
+    1px solid #000000;
+border-radius: 31px;
+}
+input[type="submit"]{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: #F7C0B9;
+    color: #FFF;
+    border: none;
+    width: 20%;
+}
+footer{
+    text-align: center;
+    background-color: #F7C0B9;
+    color: #FFF;
