@@ -1,0 +1,141 @@
+h1 {
+    font-family: 'Unica One';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+color: #F7C0B9;
+line-height: 80px;
+padding-left: 0px;
+}
+h2 {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70%;
+    padding-left: 0px;
+    
+    color: #F7C0B9;}
+h3 { font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #F7C0B9;
+    padding-left: 0px;}
+    p {
+        padding-left: 17px;
+        padding-top: 20px;
+        font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    }
+
+    #navbar{
+        height: 60px; 
+        width: 100vmax;
+    }
+
+li{
+    float: left;
+    margin: 0px 20px;
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.contenedor-cabecera{
+    display: flex;
+    padding-top: 60px;
+    width: 100vmax;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+
+    .eveprincipal{
+        width: 100%;
+    }
+
+    .texto-inicio{
+        float: left;
+        width: 80%;
+        height: 100%;    
+    }
+    .imagen-inicio{
+        float:none;
+    width: 60%;
+    margin-right: 50px;
+    }
+    #mi-cuenta{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background: #FFF9F9;
+        flex-direction: column;
+        text-align: center;
+        width: 100vmax;
+        }
+
+    .imagen-cuenta{
+        float: none;
+        width: 40%;
+    }
+    .cimagen{
+        width: 100%;
+    }
+    .texto-cuenta{
+        float: none;
+        width: 80%;
+        
+    }
+    .texto-cuenta a{
+        color: #FFF;
+        background-color: #F7C0B9;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        border-radius: 20PX;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding: 10px 0px;
+    }
+    #capacitate{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100vmax;
+    
+    }
+    .texto-capacitate{
+        float: none;
+        width: 80%;
+    
+    }
+    .img-capacitate{
+        float: none;
+        width: 40%;
+    
+    }
+    .texto-capacitate a{
+        color: #FFF;
+        background-color: #F7C0B9;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        border-radius: 20PX;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding: 10px 0px;
+    }
+    .cimg{
+        width: 100%;
+    }

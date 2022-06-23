@@ -1,0 +1,22 @@
+#cabecera{
+    width: 100vmax;
+}
+#navbar{
+    height: 60px; 
+    width: 100vmax;
+}
+
+li{
+float: left;
+margin: 0px 20px;
+font-family: 'Unica One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+cursor: pointer;
+
+}
+iframe{
+    width: 100%;
+    
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Ubuntu&family=Unica+One&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*main syle*/
+html,
+body{
+    font-family: 'Forum', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Unica One', cursive;
+   width: 100vw;
+}
+
+
+h1 {font-size:200px;
+    font-family: 'Unica One';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+color: #F7C0B9;
+line-height: 150px;
+}
+h2 {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 55%;
+    padding-left: 10px;
+    
+    color: #F7C0B9;}
+h3 { font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #F7C0B9;
+    padding-left: 17px;}
+h4 {font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #F7C0B9;
+    line-height: none;}
+h5 {font-size:20px;}
+h6 {font-size:16px;}
+p {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height:none;
+}
+a {
+    text-decoration: none;
+}
+#navbar{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #F7C0B9;
+    top: 0;
+    
+}
+.contenedornav{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+    text-transform: uppercase;
+   
+    
+}
+li{
+    float: left;
+    margin: 0px 20px;
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+a{
+    display: block;
+    color: #FFF;
+}
+
+#videos{
+    padding-top: 50px;
+    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   width:100vmax;
+
+}
+
+.contenedor{
+    padding-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;    
+}
